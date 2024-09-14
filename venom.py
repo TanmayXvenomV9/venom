@@ -7,16 +7,16 @@ import certifi
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
-TOKEN = '7527525916:AAH8lDrN62lbVBJSf4QD-fnv-EUdfpnR_zc'
+TOKEN = '7079569153:AAGyFNLLGdf5ddz0l-vW40xJch3IbO-Cruo'
 MONGO_URI = 'mongodb+srv://VENOMxCRAZY:CRAZYxVENOM@cluster0.ythilmw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0&tlsAllowInvalidCertificates=true'
-CHANNEL_ID = -1002224570220
-ADMIN_IDS = [5588464519]
+CHANNEL_ID = -1002205825171
+ADMIN_IDS = [6626992947]
 
 
 client = MongoClient(MONGO_URI, tlsCAFile=certifi.where())
 db = client['VENOM']
 users_collection = db.users
-bot = telebot.TeleBot(TOKEN)
+bot = telebot.TeleBot(7079569153:AAGyFNLLGdf5ddz0l-vW40xJch3IbO-Cruo)
 blocked_ports = [8700, 20000, 443, 17500, 9031, 20002, 20001]
 user_attack_details = {}
 active_attacks = {}
